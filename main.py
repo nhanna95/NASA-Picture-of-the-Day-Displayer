@@ -29,7 +29,3 @@ def main(img_date):
 
         with open(file, 'wb') as f:
             shutil.copyfileobj(r.raw, f)
-
-
-main("")
-main("2005-11-22")
